@@ -1,0 +1,18 @@
+#four-sided {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(236, 50%, 76%);
+    background-image: url(../img/triangle-left.svg),
+        url(../img/triangle-bottom.svg),
+        url(../img/triangle-right.svg),
+        url(../img/triangle-top.svg);
+    background-repeat: no-repeat;
+    background-position: left center, center bottom, right center, center top;
+    background-size: 40px, 240px, 40px, 240px;
+}
+
+h1 {
+    color: white;
+    transform: translate(50vw, 50vh);
+
+}

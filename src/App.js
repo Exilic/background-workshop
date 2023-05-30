@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import SimpleGradient from "./works/simpleGradient";
+import FourSided from "./works/fourSided";
 
 function App() {
   return (
     <div className="App">
-      <SimpleGradient />
+      <FourSided />
     </div>
   );
 }
