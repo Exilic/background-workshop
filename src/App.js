@@ -1,6 +1,4 @@
 import './App.css';
-import SimpleGradient from "./works/simpleGradient";
-import FourSided from "./works/fourSided";
 import FourCorners from "./works/fourCorners";
 
 
