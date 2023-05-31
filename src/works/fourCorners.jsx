@@ -12,7 +12,7 @@ import CornerUpperLeft from "../img/cornerUpperLeft";
 const FourCorners = () => {
     return (
         <div id="four-corners">
-            <CornerBottomLeft />
+            <CornerBottomLeft tint="green"/>
             <CornerBottomRight />
             <CornerUpperLeft />
             <CornerUpperRight />

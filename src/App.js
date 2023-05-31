@@ -1,11 +1,11 @@
 import './App.css';
-import FourCorners from "./works/fourCorners";
+import FourCorners2 from "./works/fourCorners2";
 
 
 function App() {
   return (
     <div className="App">
-      <FourCorners />
+      <FourCorners2 />
     </div>
   );
 }

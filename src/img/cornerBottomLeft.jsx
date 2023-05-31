@@ -6,11 +6,14 @@ const BottomLeft = styled(BLCorner)`
   position: absolute;
   bottom: 0;
   left: 0;
+  .cls-1 {
+    fill: ${props => props.$tint};
+  }
 `;
 
-const CornerBottomLeft = () => {
+const CornerBottomLeft = ({tint}) => {
     return (
-        <BottomLeft />
+        <BottomLeft $tint={tint}/>
     );
 };
 
