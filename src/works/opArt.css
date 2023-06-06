@@ -1,0 +1,54 @@
+#optical-white {
+    width: 100vw;
+    height: 100vh;
+    background-color: #a8a8e1;
+    position: relative;
+    background-image: url("../img/optical-left.svg"),
+    url("../img/optical-top.svg"),
+    url("../img/optical-right.svg"),
+    url("../img/optical-bottom.svg");
+    background-repeat: no-repeat;
+    background-size: 50% 100%, 100% 50%, 50% 100%, 100% 50%;
+    background-position: left center, top center, right center, bottom center;
+
+}
+
+img {
+
+}
+
+
+/*
+img:nth-child(1) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    object-fit: fill;
+}
+
+img:nth-child(2) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50%;
+    width: 100%;
+    object-fit: fill;
+}
+img:nth-child(3) {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    object-fit: fill;
+}
+img:nth-child(4) {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    object-fit: fill;
+}*/
