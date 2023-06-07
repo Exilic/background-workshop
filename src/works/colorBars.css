@@ -1,0 +1,6 @@
+#background-bars {
+    background-image: url(../img/color-bars.svg);
+    background-repeat: repeat-y;
+    background-position: top center;
+    height: 100vh;
+}
