@@ -1,0 +1,6 @@
+#slice-mask {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightpink;
+    clip-path: polygon(0px 0px, 0px 550px, 100vw 400px, 100vw 0px);
+}
